@@ -1,4 +1,4 @@
-//rc2mrkhistory
+
 var mysql = require("mysql");
 const mrkd = require("./rc2mrkdata_cfg");
 var cfg = require("./config");
