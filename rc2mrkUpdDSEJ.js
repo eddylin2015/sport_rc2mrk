@@ -44,7 +44,7 @@ con.connect(function (err) {
             for (let i = 0; i < res.length; i++) {
                 let ri = res[i];
                 let spno = get_spno(ri.curr_class, ri.curr_seat);
-                console.log("#", ri.curr_class, ri.curr_seat, spno);
+                console.log("# ", ri.curr_class, ri.curr_seat, spno);
                 console.log("update sport_history set dsej_ref=", "'" + ri.dsej_ref + "',stud_ref='" + ri.stud_ref + "' where spno=", spno, " and period_no=", peroid_no, " and r4xg='.';");
             }
         });
