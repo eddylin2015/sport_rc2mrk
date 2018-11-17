@@ -1,5 +1,5 @@
 var mysql = require("mysql");
-const mrkd = require("./rc2mrkdata");
+const mrkd = require("./rc2mrkdata_cfg");
 var cfg = require("./config");
 var con =cfg.localmysql;
 const period_no = 14;
